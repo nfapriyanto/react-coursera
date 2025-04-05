@@ -1,14 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
-
-function Heading() {
-  return <h1>This is an h1 heading</h1>
-}
+import Heading from './Heading';
 
 function App() {
   return ( 
     <div className="App"> 
-      <Heading /> 
+      <Heading firstName="Alice" />
+      <Heading firstName="Bob" />
     </div> 
   ); 
 }
